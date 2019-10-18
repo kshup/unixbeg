@@ -1,5 +1,4 @@
 nano simple_if.sh
-
 //GNU nano 3.2 editor
 
 echo "Sayi girin"
@@ -10,3 +9,6 @@ echo "10 dan kucuk"
 else 
 echo "10 dan buyuk"
 fi
+
+bash simple_if.sh
+
