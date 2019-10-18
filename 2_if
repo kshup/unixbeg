@@ -1,0 +1,13 @@
+nano admin.sh
+//editor
+
+echo'Kullanici adi giriniz;'
+read kullaniciadi 
+echo 'sifre giriniz;'
+read sifre
+
+if [[ ( $kullaniciadi == 'admin' && $sifre == 's3kr3t' ) ]]
+echo 'Giris basarili'
+else
+echo 'Giris basarisiz'
+fi
