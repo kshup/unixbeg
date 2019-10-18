@@ -1,0 +1,12 @@
+nano simple_if.sh
+
+//GNU nano 3.2 editor
+
+echo "Sayi girin"
+read n
+if [$n -lt 10 ]:
+then 
+echo "10 dan kucuk"
+else 
+echo "10 dan buyuk"
+fi
