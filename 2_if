@@ -6,7 +6,7 @@ read kullaniciadi
 echo 'sifre giriniz;'
 read sifre
 
-if [[ ( $kullaniciadi == 'admin' && $sifre == 's3kr3t' ) ]]
+if [[ ( $kullaniciadi == 'admin' && $sifre == 's3kr3t' ) ]]; then
 echo 'Giris basarili'
 else
 echo 'Giris basarisiz'
